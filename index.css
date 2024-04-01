@@ -25,13 +25,16 @@ body {
 
 .productName {
     margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.members {
+.members, .appOverview, .techOverview, .featureList, .futureFeatureList, .basicTechnicalFeatures, .advancedTechnicalFeatures {
     margin-bottom: 30px;
+    font-size: 28px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 2px solid #000; /* Thicker black border */
     border-radius: 5px;
+    background-color: #f5f5f5; /* Light grey background */
 }
 
 .members img {
@@ -39,13 +42,6 @@ body {
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.appOverview, .techOverview, .featureList, .futureFeatureList, .basicTechnicalFeatures, .advancedTechnicalFeatures {
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
 }
 
 h1, h2, h3 {
