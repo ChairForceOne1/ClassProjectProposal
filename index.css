@@ -52,8 +52,9 @@ body {
 .futureFeatureList h2,
 .basicTechnicalFeatures h2,
 .advancedTechnicalFeatures h2 {
-    font-size: 24px; /* Increase font size for subheadings */
+    font-size: 26px; /* Increase font size for subheadings */
     margin-bottom: 20px; /* Adjust margin if needed */
+    color: #000;
 }
 
 .members, .appOverview, .techOverview, .featureList, .futureFeatureList, .basicTechnicalFeatures, .advancedTechnicalFeatures {
@@ -61,7 +62,7 @@ body {
     padding: 20px;
     border: 2px solid #000; /* Thicker black border */
     border-radius: 5px;
-    background-color: #7ea3a1; /* Light grey background */
+    background-color: #9dc2c0; /* Light grey background */
 }
 
 .members img {
