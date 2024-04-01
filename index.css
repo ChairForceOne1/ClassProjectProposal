@@ -1,0 +1,94 @@
+/* Resetting default browser styles */
+html, body, div, h1, h2, h3, p, ul, li, img, map, area, hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Setting up some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center; /* Centering all text */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.productName {
+    margin-bottom: 20px;
+}
+
+.members {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.members img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appOverview, .techOverview, .featureList, .futureFeatureList, .basicTechnicalFeatures, .advancedTechnicalFeatures {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Adding some padding and border to images */
+img {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* Adding some spacing between list items */
+li {
+    margin-bottom: 5px;
+}
+
+/* Styling horizontal rule */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
